@@ -1,0 +1,4 @@
+# Restore the dump creted to a new DB
+
+psql -h <host> -p <port> -U <username> -d newdb -f /path/to/backup.sql
+
