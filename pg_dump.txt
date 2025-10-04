@@ -1,0 +1,13 @@
+# Create a dump file .sql using postgres client using tool pg_dump:
+
+pg_dump -h <db-host> -U <username> -p <port number> -d <database name> -f <path_of_outfile/backup.sql>
+
+# after that enter password of database
+
+#-h → remote host
+#-p → port (default 5432) for PostgreSQL
+#-U → database username
+#-d → database name
+#-f → output file
+
+#This dump file wil contain all the schema and relation along with all the data across the mentioned database
